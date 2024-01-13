@@ -1,11 +1,16 @@
-import "./App.css";
 import TopNavbar from "./components/TopNavbar";
+import Footer from "./components/Footer";
+import { Outlet } from "react-router-dom";
 
+// TODO remove, this demo shouldn't need to reset the theme.
 function App() {
   return (
     <>
       <TopNavbar />
-      <div>outlet</div>
+      <Outlet />
+      {/* Footer */}
+      <Footer />
+      {/* End footer */}
     </>
   );
 }
