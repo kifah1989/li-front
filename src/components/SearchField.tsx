@@ -30,7 +30,7 @@ export default function SearchField() {
           <InputAdornment position="end">
             <FormControl className="m-1 w-[70px] border border-red-400">
               <InputLabel id="demo-simple-select-autowidth-label">
-                Age
+                All
               </InputLabel>
               <Select
                 className="border border-red-400 text-red-500"
@@ -44,9 +44,8 @@ export default function SearchField() {
                 <MenuItem value="">
                   <em>None</em>
                 </MenuItem>
-                <MenuItem value={10}>Twenty</MenuItem>
-                <MenuItem value={21}>Twenty one</MenuItem>
-                <MenuItem value={22}>Twenty one and a half</MenuItem>
+                <MenuItem value={10}>Egyptian</MenuItem>
+                <MenuItem value={21}>Lebanese</MenuItem>
               </Select>
             </FormControl>
           </InputAdornment>

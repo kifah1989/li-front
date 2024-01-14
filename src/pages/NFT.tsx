@@ -28,7 +28,7 @@ export default function NFT() {
   return (
     <div className="flex flex-row justify-center items-center gap-3 p-3 w-full">
       <div className="border border-gray-800 flex justify-center">
-        <img src={nft?.parsedMetadata?.image} />
+        <img className="w-2/4" src={nft?.parsedMetadata?.image} />
       </div>
       <div className="w-1/3 border border-gray-800">
         <p>{nft?.parsedMetadata?.name}</p>
